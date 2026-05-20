@@ -17,7 +17,7 @@ function App() {
           <li><Link to = '/listuser'>List User</Link></li>
         </ul>
       </nav>
-       <section>
+      <section style={{ 'width': '1200px', 'margin': '0 auto' }} >
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/signup' element={<Signup />} />
