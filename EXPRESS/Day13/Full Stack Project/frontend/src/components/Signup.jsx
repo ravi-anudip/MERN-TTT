@@ -9,7 +9,7 @@ export default function Signup()
             console.log(response.data);
           }).catch((error)=>{
             console.log(error);
-          });
+          }); 
     }
         return (
                 <>
