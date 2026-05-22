@@ -14,7 +14,7 @@ export default function Signup()
         return (
                 <>
                 <section>
-                <table align="center"><tbody>
+                <table align="center">
             <tr>
                 <td>First name</td>
                 <td><input type="text" name="fname" onChange={(e)=>setUserData({...userdata,fname:e.target.value})} /></td>
@@ -32,10 +32,10 @@ export default function Signup()
                 <td><input type="radio" name="gender" value="male" onChange={(e)=>setUserData({...userdata,gender:e.target.value})} />Male |<input type="radio" name="gender" value="female" onChange={(e)=>setUserData({...userdata,gender:e.target.value})}/>FeMale </td>
             </tr>
 <tr>
-    <td colSpan="2" align="center">
+    <td colspan="2" align="center">
         <input type="button" value="Signup" onClick={saveUser} /></td>
 </tr>
-        </tbody></table>
+        </table>
         </section>
                 </>
 
